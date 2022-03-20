@@ -1,0 +1,10 @@
+  @inproceedings{Wang:2019:PCC,
+    author={Zhixiang Wang and Yinqiang Zheng and Yung-Yu Chuang},
+    title={Polarimetric Camera Calibration Using an {LCD} Monitor},
+    year={2019},
+    month={June},
+    booktitle={Proceedings of IEEE International Conference on
+        Computer Vision and Pattern Recognition (CVPR 2019)},
+    pages={3743--3752},
+    location={Long Beach},
+  }

@@ -1,0 +1,11 @@
+ @inproceedings{Chang:2020:DSM,
+    author={Hsin-Yu Chang and Zhixiang Wang and Yung-Yu Chuang},
+    title={Domain-Specific Mappings for Generative Adversarial 
+           Style Transfer},
+    year={2020},
+    month={August},
+    booktitle={Proceedings of European Conference on
+          Computer Vision (ECCV 2020)},
+    pages={573--589},
+    location={Glasgow},
+  }
