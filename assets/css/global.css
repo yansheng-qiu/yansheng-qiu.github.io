@@ -36,6 +36,13 @@ img.lazy {
     min-height: 80px;
 }
 
+video.lazy {
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    min-height: 80px;
+}
+
+
 .comma:not(:first-child) {
     margin-left: -.3em;  
 }
@@ -64,3 +71,39 @@ img.lazy {
         column-count: 2!important;
     }
 }
+
+
+.bgh {
+  background-color:  #ffffd0;
+}
+
+.venue {
+  color:  #B55370;
+  font-weight: bold;
+}
+
+
+
+.one {
+  width: w-100;
+  /*height: 160px;*/
+  position: relative;
+}
+
+.two {
+  width: w-100;
+  /*height: 160px;*/
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.blackiconcolor {color:#aaa;}
+.rediconcolor {color:#B55370;}
