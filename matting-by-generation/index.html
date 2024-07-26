@@ -316,7 +316,7 @@ title {
     }
 
 .hidden-image {
-    background: pink;
+    background: grey;
     display: none;
     position: absolute;
     top: 100%; /* Positioned below the hover element */
@@ -324,8 +324,9 @@ title {
     border: 0px solid #ddd; /* Adjust border as needed */
     padding: 5px; /* Padding around the image */
     z-index: 1;
-    border-radius: 12px; /* Rounded corners for the image */
+    border-radius: 2px; /* Rounded corners for the image */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
+    opacity: 0.9;
 }
 
     .hover-area:hover .hidden-image {
@@ -361,6 +362,7 @@ title {
                   </h1> -->
                   <h1 class="title is-1 publication-title">
                       Matting by Generation
+                      <img src="greenscreen.svg" alt="Icon" style="vertical-align: left; height: 38px;">
                   </h1>
                 <br>
                   <h2 class="title is-1 publication-venue">
@@ -415,10 +417,12 @@ title {
          <div class="container ">
                   <h2 class="title is-2">>> What and Why?</h2>
                   <div class="content has-text-justified">
-                     <p> Annotating high-quality alpha mattes by human is challenging. Existing work usually trains a <span class="hover-area">regression-based neural network
+                     <p> Annotating high-quality alpha mattes by human is challenging. Existing work usually trains a regression-based neural network
                         <!-- <img src="path_to_your_image.jpg" alt="Descriptive Image Text" class="hidden-image"> -->
-                        <object class="hidden-image" type="image/svg+xml" data="motivation.svg"/></object>
-                     </span> using the imperfect labels and is prone to produce sub-optimal results. 
+                        using the imperfect labels and is prone to produce sub-optimal results 
+                        <span class="hover-area" style="color: pink">(hover to see evidence).
+                        <object class="hidden-image" type="image/svg+xml" data="motivation1.svg"/></object>
+                     </span>  
                       <!-- We convert the problem into a conditional generation one. -->
                        We introduce an innovative approach for image matting that redefines the traditional regression-based task as a generative modeling problem. Our method harnesses the capabilities of latent diffusion models, enriched with extensive pre-trained knowledge, to regularize the matting process. 
                        We present novel architectural innovations that empower our model to produce mattes with superior resolution and detail. 
@@ -631,8 +635,8 @@ title {
         <pre><code>@inproceedings{wang2024MG,
       title={Matting by Generation},
       author={Zhixiang Wang, Baiang Li, Jian Wang, Yu-Lun Liu, Jinwei Gu, Yung-Yu Chuang, Shin'ichi Satoh},
-      booktitle={SIGGRAPH},
-      year={2023}
+      booktitle={Proceedings of ACM SIGGRAPH},
+      year={2024}
     }</code></pre>
       </div>
     </section>
