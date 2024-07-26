@@ -22,7 +22,7 @@ Image.prototype.completedPercentage = 0;
 
 // Initialize the app
 let canvasGroup;
-const images = [...Array(2)];
+const images = [...Array(7)];
 
 
 window.addEventListener("DOMContentLoaded", function (event) {
@@ -36,7 +36,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
             ],
             loading: false,
             currentTid: 0, // Reactive data property to track the current image index
-            totalImages: 2, // Total number of images available
+            totalImages: 7, // Total number of images available
             bc: '#88c7b0',
             senszoon: -3.5
         },
