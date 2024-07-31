@@ -22,7 +22,7 @@ Image.prototype.completedPercentage = 0;
 
 // Initialize the app
 let canvasGroup;
-const images = [...Array(7)];
+const images = [...Array(8)];
 
 
 window.addEventListener("DOMContentLoaded", function (event) {
@@ -31,12 +31,12 @@ window.addEventListener("DOMContentLoaded", function (event) {
         data: {
             directories: [
                 {"path": "./visuals/images/img", "name": "input", "label": "Input image", "thumbnail": "", progress: 0},
-                {"path": "./visuals/images/bgr", "name": "bgr", "label": "MODNet", progress: 0},
+                {"path": "./visuals/images/bgr2", "name": "bgr2", "label": "ViTAE-S", progress: 0},
                 {"path": "./visuals/images/ours", "name": "ours", "label": "Our output", progress: 0}
             ],
             loading: false,
             currentTid: 0, // Reactive data property to track the current image index
-            totalImages: 7, // Total number of images available
+            totalImages: 8, // Total number of images available
             bc: '#88c7b0',
             senszoon: -3.5
         },
@@ -97,7 +97,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
     });
     // Create a group of canvases that switch mode, drag, and zoom in-sync
     canvasGroup = new ResponsiveCanvasGroup(uiSize=150);
-    for (let dirname of ["input", "bgr", "ours"]) {
+    for (let dirname of ["input", "bgr2", "ours"]) {
         const canvas = document.querySelector('#canvas_' + dirname);
         canvasGroup.registerCanvas(dirname, canvas);
     }
