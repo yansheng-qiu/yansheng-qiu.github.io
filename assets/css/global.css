@@ -111,8 +111,12 @@ video.lazy {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+.text-note {
+  color: #646e7fbe;
+}
+
 a {
-    color: #b33af0; /* Change this to your desired color #ae2d2d */ 
+    color: #f0613a; /* Change this to your desired color #ae2d2d, f0613a, b33af0 */ 
     text-decoration: none; /* Optional: remove underline */
 }
 
