@@ -78,10 +78,16 @@ video.lazy {
 }
 
 .venue {
-  color:  #B55370;
-  font-weight: bold;
+  /* color:  #B55370; */
+  /* font-weight: bold; */
 }
 
+
+.classify {
+  color:  #d43f6c;
+  font-weight: bold;
+  font-size: large;
+}
 
 
 .one {
@@ -103,6 +109,17 @@ video.lazy {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
+}
+
+a {
+    color: #b33af0; /* Change this to your desired color #ae2d2d */ 
+    text-decoration: none; /* Optional: remove underline */
+}
+
+a:hover {
+    color: #3177c1; /* Change this to your desired hover color */
+    text-decoration: none; /* Optional: remove underline */
+    
 }
 
 .blackiconcolor {color:#aaa;}
