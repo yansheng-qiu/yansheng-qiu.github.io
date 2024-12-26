@@ -116,15 +116,51 @@ video.lazy {
 }
 
 a {
-    color: #f0613a; /* Change this to your desired color #ae2d2d, f0613a, b33af0 */ 
-    text-decoration: none; /* Optional: remove underline */
+    text-decoration: none;
+    color: #ea8a73;
 }
 
 a:hover {
-    color: #3177c1; /* Change this to your desired hover color */
-    text-decoration: none; /* Optional: remove underline */
-    
+  text-decoration: none;
 }
+
+a.gradient-link {
+    text-decoration: none;
+    /* font-size: 20px; */
+    /* background: linear-gradient(90deg, #ed0808,#ff7e5f, #0841ed,#08ed54); */
+    background: linear-gradient(90deg, #0841ed 10%,#9908ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+a.gradient-link:hover {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+a.icon-link {
+    text-decoration: none;
+    color: #747071;
+}
+
+
+.soft {
+    /* border: 0; */
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    /* padding: 0; */
+    /* margin: 0; */
+  }
+  
+
 
 .blackiconcolor {color:#aaa;}
 .rediconcolor {color:#B55370;}
